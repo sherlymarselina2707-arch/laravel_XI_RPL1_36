@@ -79,5 +79,11 @@
         </div>
     </main>
 
+    <!-- Elemen Audio Lokal (Otomatis Putar) -->
+    <audio autoplay loop>
+        <source src="{{ asset('audio/backsound.mp3') }}" type="audio/mpeg">
+        Browsermu tidak mendukung elemen audio.
+    </audio>
+
 </body>
 </html>
